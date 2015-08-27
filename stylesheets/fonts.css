@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'SRG_SSR_Light';
+    src: url("../fonts/srgssrtype_lt.eot");
+    src: url("../fonts/srgssrtype_lt.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_lt.woff") format('woff'), url("../fonts/srgssrtype_lt.ttf") format('truetype'), url("../fonts/srgssrtype_lt.svg#SRGSSRTypeRegular") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Regular';
+    src: url("../fonts/srgssrtype_rg.eot");
+    src: url("../fonts/srgssrtype_rg.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_rg.woff") format('woff'), url("../fonts/srgssrtype_rg.ttf") format('truetype'), url("../fonts/srgssrtype_rg.svg#SRGSSRTypeRegular") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Bold';
+    src: url("../fonts/srgssrtype_bd.eot");
+    src: url("../fonts/srgssrtype_bd.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_bd.woff") format('woff'), url("../fonts/srgssrtype_bd.ttf") format('truetype'), url("../fonts/srgssrtype_bd.svg#SRGSSRTypeBold") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Heavy';
+    src: url("../fonts/srgssrtype_he.eot");
+    src: url("../fonts/srgssrtype_he.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_he.woff") format('woff'), url("../fonts/srgssrtype_he.ttf") format('truetype'), url("../fonts/srgssrtype_he.svg#SRGSSRTypeHeavy") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Medium';
+    src: url("../fonts/srgssrtype_md.eot");
+    src: url("../fonts/srgssrtype_md.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_md.woff") format('woff'), url("../fonts/srgssrtype_md.ttf") format('truetype'), url("../fonts/srgssrtype_md.svg#SRG_SSR_Medium") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Regular_Italic';
+    src: url("../fonts/srgssrtype_it.eot");
+    src: url("../fonts/srgssrtype_it.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_it.woff") format('woff'), url("../fonts/srgssrtype_it.ttf") format('truetype'), url("../fonts/srgssrtype_it.svg#SRGSSRTypeItalic") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
+@font-face {
+    font-family: 'SRG_SSR_Serif_Regular';
+    src: url("../fonts/srgssrtype_serif_rg.eot");
+    src: url("../fonts/srgssrtype_serif_rg.eot?#iefix") format('embedded-opentype'), url("../fonts/srgssrtype_serif_rg.woff") format('woff'), url("../fonts/srgssrtype_serif_rg.ttf") format('truetype'), url("../fonts/srgssrtype_serif_rg.svg#SRG_SSR_Medium") format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: .5px !important
+}
