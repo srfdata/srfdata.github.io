@@ -14,6 +14,12 @@ body {
     padding-bottom: 20px;
     margin-bottom: 10px;
 }
+header .row {
+    padding-bottom: 10px;
+}
+header h4 {
+    margin-bottom: -10px;
+}
 header .text-right {
     color:#94928D;
 }
@@ -49,14 +55,14 @@ i.fa {
 .btn-default {
     background-color: #555555;
 }
-.btn-default:hover {
+.btn-default:hover, .btn-default:active, .btn-default:focus {
     background-color: #737373;
     color:#FFFFFF;
 }
 .btn-info {
     background-color: #94928d;
 }
-.btn-info:hover {
+.btn-info:hover, .btn-info:active, .btn-info:focus {
     background-color: #B8B6B0;
     color:#FFFFFF;
 }
@@ -65,9 +71,6 @@ i.fa {
 }
 .project-image {
     margin-bottom: 10px;
-}
-#downloads {
-    margin-top: 20px;
 }
 
 @media(max-width:767px) {
