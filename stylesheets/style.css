@@ -56,14 +56,14 @@ i.fa {
     background-color: #555555;
 }
 .btn-default:hover, .btn-default:active, .btn-default:focus {
-    background-color: #737373;
+    background-color: #737373 !important;
     color:#FFFFFF;
 }
 .btn-info {
     background-color: #94928d;
 }
 .btn-info:hover, .btn-info:active, .btn-info:focus {
-    background-color: #B8B6B0;
+    background-color: #B8B6B0 !important;
     color:#FFFFFF;
 }
 .project {

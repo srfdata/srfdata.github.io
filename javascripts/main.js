@@ -1,4 +1,12 @@
 jQuery(document).ready(function($) {
+	adaptHeight();
+});
+
+$(window).resize(function() {
+	adaptHeight();
+});
+
+function adaptHeight() {
 	$("#main_content").each(function(event) {
 		var titleHeight = 0 ;
 		var textHeight  = 0 ;
@@ -9,4 +17,4 @@ jQuery(document).ready(function($) {
 		$(".project h3").height(titleHeight);
 		$(".project p").height(textHeight);
 	});
-});
+}
