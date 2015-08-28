@@ -1,5 +1,7 @@
 jQuery(document).ready(function($) {
-	adaptHeight();
+	$('#main_content').imagesLoaded( function() {
+	  adaptHeight();
+	});
 
 	console.log("SRF Data here, welcome to the console.");
 });
