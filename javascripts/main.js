@@ -1,5 +1,7 @@
 jQuery(document).ready(function($) {
 	adaptHeight();
+
+	console.log("SRF Data here, welcome to the console.");
 });
 
 	$(window).on('resize', function(){
@@ -17,11 +19,9 @@ function adaptHeight() {
 		if( $(this).find("h3").height() > titleHeight ) titleHeight = $(this).find("h3").height();
 		if( $(this).find("p").height() > textHeight ) textHeight = $(this).find("p").height();
 	});
-	console.log(titleHeight);
+
 	$("#main_content .project h3").height(titleHeight);
 	$("#main_content .project p").height(textHeight);
 	totalHeight = $("#main_content .project").first().height();
 	$("#main_content .project:not(:eq(0))").height(totalHeight+1);
-
-	console.log('titleHeight: '+titleHeight+' textHeight:'+textHeight+' totalHeight:'+totalHeight);
 }
