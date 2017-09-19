@@ -63,6 +63,10 @@ p, li, td {
 .project-image {
   margin-bottom: 1rem;
 }
+img.logo {
+  height: 33%;
+  float: right;
+}
 i.fa {
   margin-right: 2px;
 }
@@ -106,5 +110,16 @@ i.fa {
 
 }
 @media(min-width:1200px) {
+
+}
+@media(max-width:767px) {
+
+  img.logo {
+    height: 50px;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
 
 }
