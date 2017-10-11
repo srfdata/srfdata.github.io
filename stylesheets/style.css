@@ -64,7 +64,9 @@ p, li, td {
   margin-bottom: 1rem;
 }
 img.logo {
-  height: 33%;
+  margin-top: 0.5rem;
+  width: 33%;
+  max-width: 6rem;
   float: right;
 }
 i.fa {
