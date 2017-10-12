@@ -117,11 +117,7 @@ i.fa {
 @media(max-width:767px) {
 
   img.logo {
-    height: 50px;
-    float: none;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
+    display: none;
   }
 
 }
