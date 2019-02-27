@@ -43,6 +43,16 @@
     <section class="row" id="main_content">
       <article class="col-md-6 col-lg-4">
         <div class="project-card">
+          <h4><a href="https://github.com/srfdata/2019-02-steuern/">So werden Ärzte bestraft</a></h4>
+          <a href="https://github.com/srfdata/2019-02-steuern/"><img src="images/projects/22_2019-steuern.jpg" class="img-fluid project-image"></a>
+          <p>Mit unserer interaktiven Suche finden Sie heraus, wofür Ihre Gemeinde, Ihr Kanton und der Bund Ihre Steuern ausgeben.</p>
+          <a href="https://github.com/srfdata/2019-02-steuern/" class="btn btn-default"><i class="fa fa-github"></i> </a>
+          <a href="https://www.srf.ch/news/srf-data/persoenlicher-steuerrechner-wofuer-zahle-ich-steuern" class="btn btn-info"><i class="fa fa-align-left"></i> Artikel</a>
+          <a href="https://srfdata.github.io/2019-02-steuern/" class="btn btn-info"><i class="fa fa-bar-chart"></i> Methodik</a>
+        </div>
+      </article>
+      <article class="col-md-6 col-lg-4">
+        <div class="project-card">
           <h4><a href="https://github.com/srfdata/2019-02-aerzte-zulassungen/">So werden Ärzte bestraft</a></h4>
           <a href="https://github.com/srfdata/2019-02-aerzte-zulassungen/"><img src="images/projects/21_2019-aerzte-zulassungen.jpg" class="img-fluid project-image"></a>
           <p>Hohe Hürden für Praxisverbote: Eine Datenanalyse zeigt erstmals, wie oft fehlbare Mediziner in der Schweiz sanktioniert werden. Die kantonalen Unterschiede sind erheblich.</p>
@@ -271,6 +281,16 @@
       var pageTracker = _gat._getTracker("UA-57703145-2");
       pageTracker._trackPageview();
     } catch (err) {}
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+        try {
+          var links = document.querySelectorAll('.project-card a');
+          for (var i = 0; i < links.length; i++) {
+            links[i].setAttribute('target', '_blank');
+          }
+        } catch (err) { console.log(err) }
+      }
     </script>
   </div>
 </body>
